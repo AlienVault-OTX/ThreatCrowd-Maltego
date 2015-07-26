@@ -14,6 +14,7 @@ A set of transforms for enriching entities in Maltego via the ThreatCrowd API
  + Import "ThreatCrowdConfig.mtz" into Maltego via File -> Import Configuration
  
 == Contact ==
+
 I'd love to hear any feedback or suggestions you might have.
 
 Please contact one of:
