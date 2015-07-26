@@ -2,11 +2,11 @@
 A set of transforms for enriching entities in Maltego via the ThreatCrowd API
 
 == Transforms ==
- + Domains
- + IP Addresses
- + MD5 Hashes of malware
- + E-mail Addresses
- + Antivirus detection names
+ + Domains (Domain)
+ + IP Addresses (IPv4 Address)
+ + MD5 Hashes of malware (Hash)
+ + E-mail Addresses (Email Address)
+ + Antivirus detection names (Phrase)
 
 == Installation  = =
  + Copy all files to C:\Maltego Transforms\ThreatCrowd\
