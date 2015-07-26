@@ -45,7 +45,7 @@ def main():
 
 if __name__ == '__main__':
 	m = MaltegoTransform()
-	m.addUIMessage("[INFO] Enriching domain via ThreatCrowd")
+	m.addUIMessage("[INFO] Enriching IP via ThreatCrowd")
 	try:
 		main()
 	except Exception as e:
