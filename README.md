@@ -10,7 +10,7 @@ A set of transforms for enriching entities in Maltego via the ThreatCrowd API
 
 == Installation  = =
  + Copy all files to C:\Maltego Transforms\ThreatCrowd\
- ++ For example this file should be located at C:\Maltego Transforms\ThreatCrowd\Readme.md
+ + For example this file should be located at C:\Maltego Transforms\ThreatCrowd\Readme.md
  + Import "ThreatCrowdConfig.mtz" into Maltego via File -> Import Configuration
  
 == Contact ==
