@@ -18,7 +18,10 @@ def main():
 	
 	url = "https://www.threatcrowd.org/searchApi/v1/api.php?type=email&query=" + email
 	
-	response = urllib2.urlopen(url)
+
+	proxy = urllib2.ProxyHandler()
+	opener = urllib2.build_opener(proxy)
+	response = opener.open(url)
 	html = response.read()
 	
 

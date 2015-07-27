@@ -17,10 +17,11 @@ def main():
 	ip = sys.argv[1]
 	
 	url = "https://www.threatcrowd.org/searchApi/v1/api.php?type=ip&query=" + ip
-	
-	response = urllib2.urlopen(url)
+
+	proxy = urllib2.ProxyHandler()
+	opener = urllib2.build_opener(proxy)
+	response = opener.open(url)
 	html = response.read()
-	
 
 	
 	for line in html.split('\r'):
